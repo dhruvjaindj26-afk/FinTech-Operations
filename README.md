@@ -2,7 +2,6 @@
 
 Student Name: Dhruv Jain
 Student ID: bitsom_ftai_2601160
-Public GitHub Repository Link: [Your Repository Link]
 
 ## Run Instructions
 1. Open `02_spreadsheet/spreadsheet_workbook.xlsx` for the spreadsheet section.
