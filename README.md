@@ -16,11 +16,3 @@ Public GitHub Repository Link: [Your Repository Link]
 - openpyxl
 - Jupyter Notebook
 
-## Submission Rules
-- Submit one public GitHub repository link only.
-- All work is present in the `main` branch.
-- Do not rename files or folders.
-- Do not change the folder structure.
-- Do not remove any required file.
-- Do not submit zipped folders.
-- Do not submit only notebook links or drive links.
