@@ -1,0 +1,2 @@
+transaction_id,transaction_date_ledger,merchant_id,amount_usd_ledger,status_ledger,payment_method_ledger,transaction_date_gateway,amount_usd_gateway,status_gateway,payment_method_gateway,_merge
+R005,2026-03-03,M004,7200.0,success,Card,2026-03-03,7200.0,failed,Card,both

@@ -1,0 +1,11 @@
+transaction_id,transaction_date,merchant_id,amount_usd,status,payment_method
+R001,2026-03-01,M001,1200.0,success,UPI
+R002,2026-03-01,M002,850.0,success,Card
+R003,2026-03-02,M001,500.0,success,Wallet
+R004,2026-03-02,M003,2100.0,success,Card
+R005,2026-03-03,M004,7200.0,success,Card
+R006,2026-03-03,M002,950.0,success,UPI
+R007,2026-03-04,M005,3300.0,failed,NetBanking
+R008,2026-03-04,M001,640.0,success,Card
+R009,2026-03-05,M002,4100.0,success,Card
+R010,2026-03-05,M004,2500.0,success,Wallet

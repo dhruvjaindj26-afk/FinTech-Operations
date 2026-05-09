@@ -1,0 +1,31 @@
+transaction_id,transaction_date,merchant_name,raw_amount,currency,status,risk_score,gateway_region,user_id,payment_method
+T001,2026-03-01, alpha mart ,420000,INR,captured,score:62,APAC,U001,UPI
+T002,2026-03-01,ALPHA MART,210000,INR,Captured ,55,,U002,Card
+T003,2026-03-01,BETA STORES ,510000,INR, CAPTURED,71, APAC ,U003,NetBanking
+T004,2026-03-02,Beta  Stores,160000,INR, failed e05 timeout ,68,apac,U004,Card
+T005,2026-03-02,Alpha Mart,390000,INR, CAPTURED,58 ,,U001,UPI
+T006,2026-03-02,Beta  Stores,275000,INR,Captured ,score:64,,U005,Wallet
+T007,2026-03-02,Alpha  Mart,450000,INR,chargeback,risk-83, APAC ,U006,Card
+T008,2026-03-03,BETA STORES ,340000,INR,Captured ,59 ,,U007,UPI
+T009,2026-03-03,Alpha Mart,125000,INR,captured,46,APAC,U002,Wallet
+T010,2026-03-03,Beta Stores,610000,INR,captured,risk-77,,U003,Card
+T011,2026-03-03,Alpha  Mart,195000,INR,FAILED e05 TIMEOUT,,,U008,UPI
+T012,2026-03-04,Beta  Stores,250000,INR,captured ,risk-61, APAC ,U009,Card
+T013,2026-03-04, alpha mart ,310000,INR,captured ,score:54,APAC,U010,UPI
+T014,2026-03-04,Beta  Stores,470000,INR,captured ,risk-73,APAC,U001,NetBanking
+T015,2026-03-04,Alpha Mart,130000,INR,captured,score:52,,U002,Card
+T016,2026-03-05,Beta  Stores,220000,INR,failed E05 timeout,risk-69,,U008,Card
+T017,2026-03-05,Beta  Stores,180000,INR,Failed E05 Timeout,score:72,apac,U008,Card
+T018,2026-03-05,BETA STORES ,145000,INR, chargeback ,risk-86, APAC ,U008,UPI
+T019,2026-03-05,Alpha  Mart,260000,INR,Failed E05 Timeout,score:67,apac,U008,Wallet
+T020,2026-03-05,Alpha Mart,520000,INR,Captured ,75 ,APAC,U005,UPI
+T021,2026-03-06, beta stores,330000,INR,captured ,score:63,,U006,Card
+T022,2026-03-06,ALPHA MART,410000,INR,captured ,60 ,APAC,U007,UPI
+T023,2026-03-01,City Pharma,5200,EUR,Captured ,42, EU ,U003,Card
+T024,2026-03-02,Eco Home,6100,EUR, chargeback ,score:65,EU,U004,Card
+T025,2026-03-03,City Pharma,2800,EUR,captured ,38 ,eu,U005,Wallet
+T026,2026-03-05,Eco Home,3300,EUR,Failed E05 Timeout,44, EU ,U006,NetBanking
+T027,2026-03-01,DELTA TRAVELS,7200,USD,captured ,49 ,us,U007,Card
+T028,2026-03-02,Delta Travels,3100,USD, CAPTURED,risk-41,US,U008,Card
+T029,2026-03-04,delta travels ,2500,USD, chargeback ,score:58,US,U009,Wallet
+T030,2026-03-06,DELTA TRAVELS,1800,USD,Failed E05 Timeout,score:47,US,U010,UPI

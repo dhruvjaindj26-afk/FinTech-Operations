@@ -1,0 +1,12 @@
+transaction_id,transaction_date_ledger,merchant_id,amount_usd_ledger,status_ledger,payment_method_ledger,transaction_date_gateway,amount_usd_gateway,status_gateway,payment_method_gateway,_merge,issue_type
+R001,2026-03-01,M001,1200.0,success,UPI,2026-03-01,1200.0,success,UPI,both,match
+R002,2026-03-01,M002,850.0,success,Card,2026-03-01,900.0,success,Card,both,amount_mismatch
+R003,2026-03-02,M001,500.0,success,Wallet,2026-03-02,500.0,success,Wallet,both,match
+R004,2026-03-02,M003,2100.0,success,Card,,,,,left_only,missing_in_gateway
+R005,2026-03-03,M004,7200.0,success,Card,2026-03-03,7200.0,failed,Card,both,status_mismatch
+R006,2026-03-03,M002,950.0,success,UPI,2026-03-03,950.0,success,UPI,both,match
+R007,2026-03-04,M005,3300.0,failed,NetBanking,2026-03-04,3300.0,failed,NetBanking,both,match
+R008,2026-03-04,M001,640.0,success,Card,2026-03-04,600.0,success,Card,both,amount_mismatch
+R009,2026-03-05,M002,4100.0,success,Card,2026-03-05,4100.0,success,Card,both,match
+R010,2026-03-05,M004,2500.0,success,Wallet,,,,,left_only,missing_in_gateway
+R011,,M003,,,,2026-03-05,1800.0,success,Card,right_only,missing_in_ledger

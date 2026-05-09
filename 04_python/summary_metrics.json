@@ -1,0 +1,12 @@
+{
+  "total_ledger_rows": 10,
+  "total_gateway_rows": 9,
+  "missing_in_gateway_count": 2,
+  "missing_in_ledger_count": 1,
+  "amount_mismatch_count": 2,
+  "status_mismatch_count": 1,
+  "reconciliation_issue_count": 6,
+  "ledger_total_amount": 23340.0,
+  "gateway_total_amount": 20550.0,
+  "amount_at_risk": 43610.0
+}

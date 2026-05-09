@@ -1,0 +1,6 @@
+merchant_id,merchant_name,account_manager,merchant_category,default_region
+M001,Alpha Mart,Aisha Khan,Grocery,APAC
+M002,Beta Stores,Rohan Mehta,Electronics,APAC
+M003,City Pharma,Elena Rossi,Healthcare,EU
+M004,Delta Travels,Marcus Lee,Travel,US
+M005,Eco Home,Nina Weber,Home,EU

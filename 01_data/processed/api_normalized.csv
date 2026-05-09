@@ -1,0 +1,7 @@
+batch_id,generated_at,source,merchant_id,merchant_name,merchant_region,settlement_id,amount_usd,status,processed_at,bank_name,bank_country
+B001,2026-03-07T10:00:00Z,QuickPay Settlement API,M001,Alpha Mart,APAC,S001,1520.5,settled,2026-03-07 08:10:00+00:00,Bank A,IN
+B001,2026-03-07T10:00:00Z,QuickPay Settlement API,M001,Alpha Mart,APAC,S002,980.0,pending,2026-03-07 08:45:00+00:00,Bank A,IN
+B001,2026-03-07T10:00:00Z,QuickPay Settlement API,M001,Alpha Mart,APAC,S003,640.0,settled,2026-03-07 09:15:00+00:00,Bank B,SG
+B002,2026-03-07T10:00:00Z,QuickPay Settlement API,M004,Delta Travels,US,S004,2100.0,settled,2026-03-07 08:20:00+00:00,Bank C,US
+B002,2026-03-07T10:00:00Z,QuickPay Settlement API,M004,Delta Travels,US,S005,500.0,failed,2026-03-07 08:50:00+00:00,Bank C,US
+B002,2026-03-07T10:00:00Z,QuickPay Settlement API,M004,Delta Travels,US,S006,7200.0,settled,2026-03-07 09:30:00+00:00,Bank C,US

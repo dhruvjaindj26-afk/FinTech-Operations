@@ -1,0 +1,86 @@
+{
+  "generated_at": "2026-03-07T10:00:00Z",
+  "source": "QuickPay Settlement API",
+  "batches": [
+    {
+      "batch_id": "B001",
+      "merchant": {
+        "merchant_id": "M001",
+        "merchant_name": "Alpha Mart",
+        "region": "APAC"
+      },
+      "settlements": [
+        {
+          "settlement_id": "S001",
+          "amount_usd": 1520.5,
+          "status": "settled",
+          "processed_at": "2026-03-07T08:10:00Z",
+          "bank": {
+            "name": "Bank A",
+            "country": "IN"
+          }
+        },
+        {
+          "settlement_id": "S002",
+          "amount_usd": 980.0,
+          "status": "pending",
+          "processed_at": "2026-03-07T08:45:00Z",
+          "bank": {
+            "name": "Bank A",
+            "country": "IN"
+          }
+        },
+        {
+          "settlement_id": "S003",
+          "amount_usd": 640.0,
+          "status": "settled",
+          "processed_at": "2026-03-07T09:15:00Z",
+          "bank": {
+            "name": "Bank B",
+            "country": "SG"
+          }
+        }
+      ]
+    },
+    {
+      "batch_id": "B002",
+      "merchant": {
+        "merchant_id": "M004",
+        "merchant_name": "Delta Travels",
+        "region": "US"
+      },
+      "settlements": [
+        {
+          "settlement_id": "S004",
+          "amount_usd": 2100.0,
+          "status": "settled",
+          "processed_at": "2026-03-07T08:20:00Z",
+          "bank": {
+            "name": "Bank C",
+            "country": "US"
+          }
+        },
+        {
+          "settlement_id": "S005",
+          "amount_usd": 500.0,
+          "status": "failed",
+          "processed_at": "2026-03-07T08:50:00Z",
+          "bank": {
+            "name": "Bank C",
+            "country": "US"
+          }
+        },
+        {
+          "settlement_id": "S006",
+          "amount_usd": 7200.0,
+          "status": "settled",
+          "processed_at": "2026-03-07T09:30:00Z",
+          "bank": {
+            "name": "Bank C",
+            "country": "US"
+          }
+        }
+      ]
+    }
+  ]
+}

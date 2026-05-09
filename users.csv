@@ -1,0 +1,11 @@
+user_id,user_name,signup_date,user_region,risk_tier
+U001,Aarav Shah,2026-01-10,India,medium
+U002,Meera Iyer,2026-01-18,India,low
+U003,Kabir Jain,2026-01-22,India,medium
+U004,Sofia Rossi,2026-02-01,Italy,low
+U005,Vikram Nair,2026-02-04,India,medium
+U006,Riya Gupta,2026-02-08,India,high
+U007,Noah Kim,2026-02-12,Singapore,medium
+U008,Ishaan Verma,2026-02-15,India,high
+U009,Emma Brooks,2026-02-20,USA,medium
+U010,Liam Carter,2026-02-25,USA,low
