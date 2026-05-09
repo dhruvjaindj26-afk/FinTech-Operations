@@ -1,7 +1,7 @@
 # QuickPay FinTech Operations Case Study
 
-Student Name: [Your Name]
-Student ID: [Your ID]
+Student Name: Dhruv Jain
+Student ID: bitsom_ftai_2601160
 Public GitHub Repository Link: [Your Repository Link]
 
 ## Run Instructions
